@@ -1,0 +1,77 @@
+packages:
+  bash:
+    externals:
+    - spec: bash@5.0.17
+      prefix: /usr
+  boost:
+    externals:
+    - spec: boost@1.71.0~atomic~chrono~date_time~exception~graph~iostreams~locale~log~math~multithreaded~program_options~random~regex~serialization~signals~system~test~thread~timer~wave
+      prefix: /usr
+  bzip2:
+    externals:
+    - spec: bzip2@1.0.8
+      prefix: /usr
+  cmake:
+    externals:
+    - spec: cmake@3.16.3
+      prefix: /usr
+  diffutils:
+    externals:
+    - spec: diffutils@3.7
+      prefix: /usr
+  file:
+    externals:
+    - spec: file@5.38
+      prefix: /usr
+  findutils:
+    externals:
+    - spec: findutils@4.7.0
+      prefix: /usr
+  gcc:
+    externals:
+    - spec: gcc@9.3.0 languages=c,c++
+      prefix: /usr
+      extra_attributes:
+        compilers:
+          c: /usr/bin/x86_64-linux-gnu-gcc-9
+          cxx: /usr/bin/x86_64-linux-gnu-g++-9
+  git:
+    externals:
+    - spec: git@2.25.1~tcltk
+      prefix: /usr
+  gmake:
+    externals:
+    - spec: gmake@4.2.1
+      prefix: /usr
+  openssh:
+    externals:
+    - spec: openssh@8.2p1
+      prefix: /usr
+  openssl:
+    externals:
+    - spec: openssl@1.1.1f
+      prefix: /usr
+  perl:
+    externals:
+    - spec: perl@5.30.0~cpanm+shared+threads
+      prefix: /usr
+  pkg-config:
+    externals:
+    - spec: pkg-config@0.29.1
+      prefix: /usr
+  python:
+    externals:
+    - spec: python@3.8.10+bz2+ctypes+dbm+lzma+nis+pyexpat+readline+sqlite3+ssl~tix~tkinter+uuid+zlib
+      prefix: /usr
+  sed:
+    externals:
+    - spec: sed@4.7
+      prefix: /usr
+  tar:
+    externals:
+    - spec: tar@1.30
+      prefix: /usr
+  xz:
+    externals:
+    - spec: xz@5.2.4
+      prefix: /usr
