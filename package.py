@@ -24,7 +24,7 @@ class SpackExercise(CMakePackage):
 
     depends_on("cxx", type="build")
 
-    depends_on("yaml-cpp@0.7.0", when="@0.3.0")
+    depends_on("yaml-cpp@0.7.0:", when="@0.3.0")
     depends_on("boost@1.65.1:", when="@0.2.0:0.3.0")
  
 
